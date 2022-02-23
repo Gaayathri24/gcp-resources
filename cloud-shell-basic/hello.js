@@ -3,7 +3,7 @@ const http = require('http');
 const hostname = '127.0.0.1';
 const port = 8080;
 
-const message = 'This is a G3's webpage (using CloudShell) for my GCP interview';
+const message = 'This is my sandbox trying CloudShell #GCPInterview';
 const fullMessage = `${message}\n`;
 
 const server = http.createServer((request, response) => {
